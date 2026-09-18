@@ -1,0 +1,19 @@
+https://github.com/jlconcepcion/TalendigMateria8Tarea3.git
+
+## Cómo correr el proyecto
+
+1. Backend (puerto 3000 por defecto):
+   ```
+   cd backend
+   npm install
+   # completar backend/.env a partir de backend/.env.example
+   npm run dev
+   ```
+2. Frontend (puerto 5173 por defecto):
+   ```
+   cd frontend
+   npm install
+   # completar frontend/.env a partir de frontend/.env.example (VITE_API_URL)
+   npm run dev
+   ```
+3. Abrir `http://localhost:5173`. El listado de productos es público; para crear un producto hay que iniciar sesión con las credenciales configuradas en el backend (por defecto `admin` / `admin123`).

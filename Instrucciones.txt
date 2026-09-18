@@ -1,0 +1,12 @@
+https://github.com/jlconcepcion/TalendigMateria8Tarea1.git
+
+cómo Ejecutar el Proyecto
+
+Instalar dependencias:
+npm install
+
+Iniciar servidor en desarrollo:
+npm run dev
+
+Ejecutar pruebas automatizadas:
+node test-api.js
